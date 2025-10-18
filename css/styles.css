@@ -804,7 +804,6 @@ transition:
 }
 
 .agreement-wrapper {
-    display: flex;
     align-items: center;
     gap: 8px;
     white-space: nowrap;
@@ -835,11 +834,12 @@ transition:
 input[type='checkbox']:checked + .agreement-wrapper>.agreement-checkbox {
     background-color: #404bbf;
     border: none;
-    fill: #f4f4fd;
+    fill: #f4f4fd
 }
 
 .agreement-checkbox-icon {
-    fill: currentColor;
+   fill: currentColor;
+    
 }
 
 .agreement-link {
