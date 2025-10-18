@@ -816,8 +816,8 @@ transition:
     margin-bottom: 24px;
 }
 
-span.agreement-checkbox {
-    display: inline-flex !important;
+.agreement-checkbox {
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 16px;
